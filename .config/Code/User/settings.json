@@ -1,0 +1,73 @@
+{
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+    "files.watcherExclude": {
+        "**/var/cache/**": true,
+        "**/vendor/**": true
+    },
+    "files.exclude": {
+        "**/var/cache/**": true
+    },
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "search.quickOpen.includeHistory": false,
+    "explorer.confirmDragAndDrop": false,
+    "extensions.autoUpdate": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "intelephense.files.exclude": [
+        "**/var/**",
+        "**/.git/**",
+        "**/.svn/**",
+        "**/.hg/**",
+        "**/CVS/**",
+        "**/.DS_Store/**",
+        "**/node_modules/**",
+        "**/bower_components/**",
+        "**/vendor/**/{Test,test,Tests,tests}/**/*Test.php"
+    ],
+    "explorer.confirmDelete": false,
+    "[php]": {
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
+        "editor.quickSuggestions": {
+            "other": true,
+            "comments": true,
+            "strings": false
+        }
+    },
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.currentLine.enabled": false,
+    "[puppet]": {},
+    "puppet.editorService.enable": false,
+    "puppet.installType": "agent",
+    "puppet.installDirectory": "/usr/bin",
+    "gitlens.codeLens.enabled": false,
+    "workbench.startupEditor": "welcomePage",
+    "workbench.colorTheme": "Plastic",
+    "files.associations": {
+        "*.php7": "php"
+    },
+    "intelephense.phpdoc.returnVoid": false,
+    "intelephense.completion.fullyQualifyGlobalConstantsAndFunctions": true,
+    "intelephense.phpdoc.classTemplate": {
+        "summary": "$1",
+        "tags": [
+            "",
+            "@copyright ${CURRENT_YEAR} Wider Plan",
+            "@license Proprietary",
+        ]
+    },
+    "intelephense.phpdoc.functionTemplate": {
+        "summary": "$1",
+        "tags": [
+            "",
+        ],
+    },
+    "intelephense.telemetry.enabled": false,
+    "html.format.endWithNewline": true,
+    "emmet.excludeLanguages": [
+        "php",
+        "markdown"
+    ],
+}
